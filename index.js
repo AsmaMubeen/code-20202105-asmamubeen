@@ -1,3 +1,9 @@
+// stream reads json from data file 
+// processes the data to calculate BMI, Category, Health Risk
+// Counts number of Overweight people
+// writes data along with calculated fields to output.json
+// logs number of overweight people to the console
+
 let Patient = require("./bmiCalculator")
 const StreamArray = require('stream-json/streamers/StreamArray');
 var es = require('event-stream');
